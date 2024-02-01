@@ -6,7 +6,6 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import NewPost from './pages/NewPost.jsx'
 import EditPost from './pages/EditPost.jsx'
-import Post from './pages/post.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,10 +19,10 @@ const router = createBrowserRouter([
         path: "/new",
         element: <NewPost />
       },
-      {
-        path: "/posts/:id",
-        element: <Post/>
-      },
+      // {
+      //   path: "/posts/:id",
+      //   element: <Post/>
+      // },
       {
         path: "/posts/:id/edit",
         element: <EditPost/>
