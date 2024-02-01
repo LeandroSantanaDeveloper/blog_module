@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Home from './routes/home.jsx'
-import NewPost from './routes/new-post.jsx'
+import Home from './routes/Home.jsx'
+import NewPost from './routes/NewPost.jsx'
+import EditPost from './routes/EditPost.jsx'
 import Post from './routes/post.jsx'
-import EditPost from './routes/edit-Post.jsx'
 
 const router = createBrowserRouter([
   {
