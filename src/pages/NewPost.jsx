@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import usePost from '../hooks/usePost';
-import '../styles/new-post.css'
+import '../styles/new-post.sass'
 const NewPost = () => {
     const [title, setTitle] = useState("");
     const [body, setBody] = useState("");
@@ -26,7 +26,7 @@ const NewPost = () => {
 
     return (
         <div className="new-post">
-            <h2>Inserir novo Post</h2>
+            <h1>Inserir novo Post</h1>
             <form onSubmit={handleSubmit}>
                 <div className="form-control">
                     <label htmlFor="title">Título:</label>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import '../styles/home.css'
+import '../styles/home.sass'
 import useFetch from "../hooks/useFetch";
 import { apiUrl } from "../../config";
 
