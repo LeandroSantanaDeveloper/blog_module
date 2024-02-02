@@ -20,7 +20,7 @@ function App() {
           <Route path= "/posts/:id" element={<Post/>}/>
           <Route path= "/posts/:id/edit" element={<EditPost/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
       </div>
     </>
   )
