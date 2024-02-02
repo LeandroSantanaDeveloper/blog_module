@@ -3,9 +3,6 @@ import Navbar from './components/navbar'
 
 
 import Home from './pages/Home'
-import NewPost from './pages/NewPost'
-import Post from './pages/post'
-import EditPost from './pages/EditPost'
 
 function App() {
 
@@ -16,9 +13,9 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/new' element={<NewPost/>}/>
+          {/* <Route path='/new' element={<NewPost/>}/>
           <Route path= "/posts/:id" element={<Post/>}/>
-          <Route path= "/posts/:id/edit" element={<EditPost/>}/>
+          <Route path= "/posts/:id/edit" element={<EditPost/>}/> */}
         </Routes>
       </BrowserRouter> 
       </div>
