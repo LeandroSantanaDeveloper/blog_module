@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import usePost from '../hooks/usePost';
-
+import '../styles/new-post.css'
 const NewPost = () => {
     const [title, setTitle] = useState("");
     const [body, setBody] = useState("");
