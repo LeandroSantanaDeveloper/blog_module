@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './components/navbar'
 
-import './app.css'
+
 import Home from './pages/Home'
 import NewPost from './pages/NewPost'
 import Post from './pages/post'

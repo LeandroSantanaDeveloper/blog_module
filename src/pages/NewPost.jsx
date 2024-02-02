@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './new-post.css';
+
 import { useNavigate } from 'react-router-dom';
 import usePost from '../hooks/usePost';
 
