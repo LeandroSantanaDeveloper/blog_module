@@ -11,17 +11,19 @@ function App() {
 
   return (
     <>
-      <div className="container">
+
       <BrowserRouter>
-      <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/new' element={<NewPost/>}/>
-          <Route path= "/posts/:id" element={<Post/>}/>
-          <Route path= "/posts/:id/edit" element={<EditPost/>}/>
-        </Routes>
-      </BrowserRouter> 
-      </div>
+        <Navbar />
+        <div className="container">
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/new' element={<NewPost />} />
+            <Route path="/posts/:id" element={<Post />} />
+            <Route path="/posts/:id/edit" element={<EditPost />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+
     </>
   )
 }
