@@ -10,7 +10,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            <h1>Últimos posts</h1>
+            <h1>Últimos posts (v1)</h1>
             {data.map((item) => (
                 <div className="post" key={item.id}>
                     <h2>{item.title}</h2>
